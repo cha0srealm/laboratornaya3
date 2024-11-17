@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(51, 52, 52);
+    font-family: sans-serif;
+}
+
+.container{
+    max-width: 1030px;
+    margin: auto;
+}
+
+header{
+    background-color: rgb(75, 67, 67);
+    padding-bottom: 25px;
+}
+
+.nav_group{
+    text-decoration: none;
+    padding-top: 25px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.navlogo{
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+}
+
+.img1{
+    margin-left: 8px;
+    width: 32px;
+    height: 32px;
+}
+
+.gamecover{
+    width: 250px;
+    height: 350px;
+}
+
+.gamecover_alt{
+    float: left;
+    margin-right: 15px;
+    width: 210px;
+    height: 300px;
+}
+
+.gamesgroup{
+    display: flex;
+    justify-content: space-around;
+}
+
+.gamename{
+    margin-top: 25px;
+    color: white;
+    font-size: 22px
+}
+
+.gamename:hover{
+    color: black;
+}
+
+.game{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table{
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+th, td{
+    color: white;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+th{
+    color: black;
+    background-color: rgb(75, 67, 67);
+}
+
+.gamebutton{
+    font-size: 22px;
+    color: white;
+    padding: 10px 25px 10px 25px;
+    border-radius: 15px;
+    border: 1px solid white;
+    text-decoration: none;
+}
+
+.gamebutton:hover{
+    border: 1px solid black;
+    color: black;
+}
